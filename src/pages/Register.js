@@ -51,7 +51,7 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function Register() {
   return (
-    <RootStyle title="Register | TAdS-VCT">
+    <RootStyle title="Register | DevSoc-VCT">
       <AuthLayout>
         Already have an account? &nbsp;
         <Link underline="none" variant="subtitle2" component={RouterLink} to="/login">
@@ -62,7 +62,7 @@ export default function Register() {
       <MHidden width="mdDown">
         <SectionStyle>
           {/* <Typography variant="h3" sx={{ px: 5, mt: 10, mb: 5 }}>
-            TAdS create a new user
+            DevSoc create a new user
           </Typography> */}
           <img alt="register" src="https://github.com/TAdS-VCT/Media/blob/main/BG%20images/register%20vector01.png?raw=true" />
         </SectionStyle>

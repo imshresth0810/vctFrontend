@@ -35,7 +35,7 @@ export default function RegisterForm() {
     // console.log(json);
     if (json.success === true) {
       setTimeout(() => {
-        toast.success("User Created Successfully, Please Check Your Email ID for PassCode", {
+        toast.success("User Created Successfully, \n Please Check Your Email ID for PassCode", {
           position: "top-center"
         });
       }, 100);

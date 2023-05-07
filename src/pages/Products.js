@@ -58,7 +58,7 @@ export default function EcommerceShop() {
         marginTop: '0px',
         overflow: "hidden"
       }}>
-        <Page title="TAdS | VCT" style={{ marginTop: "0", }}>
+        <Page title="DevSoc | VCT" style={{ marginTop: "0", }}>
           <div className="user_maindiv" >
             {((vctDate) <= (nowVctDate)) ? <div className='vct_details'>
 

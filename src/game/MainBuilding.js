@@ -30,7 +30,7 @@ export default function MB() {
     imageList.forEach((image) => {
       new Image().src = image
     });
-    document.title = "TAdS | VCT"
+    document.title = "DevSoc | VCT"
 
     // eslint-disable-next-line
   }, [userIndex, setUserIndex]);

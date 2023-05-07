@@ -27,7 +27,6 @@ import {
 export default function DashboardApp() {
   return (
     <>
-
       <div
         style={{
           backgroundColor: '#c7b48a',
@@ -44,10 +43,12 @@ export default function DashboardApp() {
           // overflow: 'scroll'
         }}
       >
-        <Page title="TAdS | VCT">
+        <Page title="DevSoc | VCT">
           <Container maxWidth="xl">
             <Box sx={{ pb: 3 }}>
-              <Typography variant="h2" style={{textAlign: 'center',fontWeight: '800'}}><span style={{color: 'red'}}>T</span>echnology <span style={{color: 'red'}}>Ad</span>venture <span style={{color: 'red'}}>S</span>ociety<div className="blockquote-footer" style={{textAlign: 'center', marginTop:"10px"}}> Welcomes You...</div></Typography>
+              <Typography variant="h2" style={{ textAlign: 'center', fontWeight: '800' }}>
+
+                Developers' Society<div className="blockquote-footer" style={{ textAlign: 'center', marginTop: "10px" }}> Welcomes You...</div></Typography>
               {/* <img src={whitepng} alt="hey" className='house_image' /> */}
             </Box>
             {/* <DashboardNavbar/> */}

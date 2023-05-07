@@ -26,7 +26,7 @@ export default function Toat() {
   }
   useEffect(() => {
     userdeatils();
-    document.title = "TAdS | VCT"
+    document.title = "DevSoc | VCT"
 
     // eslint-disable-next-line
   }, [userIndex, setUserIndex]);

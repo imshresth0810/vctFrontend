@@ -46,7 +46,7 @@ function MyVerticallyCenteredModal(props) {
       >
         <div style={{ padding: "7%", color: "#ffffff", fontWeight: "500", fontSize: "20px", lineHeight: "2.4" }}>
           1.	Click on "Let's Go" button on the page that appears to start the game. Beware… the countdown begins! So be quick.<br />
-          2.  Do not use the back and forward buttons of your laptop. Use the one displayed on the screen.
+          2.  Do not use the back and forward buttons of your laptop. Use the one displayed on the screen.<br/>
           3.	On the screen, a clue indicating a location on the IIT KGP campus emerges. Guess the location and click on the respective pointer on the map.<br />
           4.	The pointer you choose opens an image of the same. This image contains spme vectors out of which only 1 vector is correct. Find that one, and you get the next hint on your screen.<br />
           5.	Click the Key icon in the top-left corner of the screen to see the clue once more. This area of the screen also allows you to check your score.<br />
