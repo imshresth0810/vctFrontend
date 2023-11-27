@@ -43,12 +43,12 @@ export default function DashboardApp() {
           // overflow: 'scroll'
         }}
       >
-        <Page title="DevSoc | VCT">
+        <Page title="TAdS | VCT">
           <Container maxWidth="xl">
             <Box sx={{ pb: 3 }}>
               <Typography variant="h2" style={{ textAlign: 'center', fontWeight: '800' }}>
 
-                Developers' Society<div className="blockquote-footer" style={{ textAlign: 'center', marginTop: "10px" }}> Welcomes You...</div></Typography>
+               Technology Adventure Society<div className="blockquote-footer" style={{ textAlign: 'center', marginTop: "10px" }}> Welcomes You...</div></Typography>
               {/* <img src={whitepng} alt="hey" className='house_image' /> */}
             </Box>
             {/* <DashboardNavbar/> */}

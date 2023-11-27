@@ -83,7 +83,7 @@ export default function AppWeeklySales() {
   return (
     <RootStyle>
       <Typography variant="subtitle2" sx={{ opacity: 0.99999, fontSize: "36px", color:"#4a341e", fontWeight:"600" }}>
-        DevSoc Virtual Cycle Trip will commence in...
+        TAdS Virtual Cycle Trip will commence in...
         <br />
         {((vctDate) >= (nowVctDate)) ? <div>{days} days : {hrs} hours : {min} Minutes : {sec} Seconds</div> : <div>We are Live now</div>}
       </Typography>

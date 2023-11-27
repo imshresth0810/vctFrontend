@@ -45,7 +45,7 @@ export default function LoginForm() {
 
     if (json.success) {
       setTimeout(() => {
-        toast.success("Login Successful\nWelcome to DevSoc VCT", {
+        toast.success("Login Successful\nWelcome to TAdS VCT", {
           position: "top-center",
           autoClose: 5000
         });

@@ -26,7 +26,7 @@ export default function AgriDept() {
   }
   useEffect(() => {
     userdeatils();
-    document.title = "DevSoc | VCT"
+    document.title = "TAdS | VCT"
     // eslint-disable-next-line
 
   }, [userIndex, setUserIndex]);

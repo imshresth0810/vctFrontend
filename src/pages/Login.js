@@ -53,7 +53,7 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function Login() {
   return (
-    <RootStyle title="Login | DevSoc-VCT">
+    <RootStyle title="Login | TAdS-VCT">
       <AuthLayout>
         Don’t have an account? &nbsp;
         <Link underline="none" variant="subtitle2" component={RouterLink} to="/register">
@@ -63,7 +63,7 @@ export default function Login() {
 
       <MHidden width="mdDown">
         <SectionStyle>
-          {!localStorage.getItem('usertoken') ? <RootStyle title="Login | DevSoc-VCT" ></RootStyle> : <RootStyle title="Logout | DevSoc-VCT" ></RootStyle>}
+          {!localStorage.getItem('usertoken') ? <RootStyle title="Login | TAdS-VCT" ></RootStyle> : <RootStyle title="Logout | TAdS-VCT" ></RootStyle>}
           <img src="https://raw.githubusercontent.com/TAdS-VCT/Media/main/BG%20images/login%20vector.png" alt="login" style={{transform: 'scale(1.5)'}} />
         </SectionStyle>
       </MHidden>

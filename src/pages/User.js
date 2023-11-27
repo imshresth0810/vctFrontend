@@ -55,7 +55,7 @@ export default function User() {
         overflow: "hidden",
         fontStyle: "Poppins"
       }}>
-        <Page title="User | DevSoc-VCT">
+        <Page title="User | TAdS-VCT">
           <div className="user_maindiv" >
             <div className='user_details'>
               <h1>Name:<span>{`${username}`}</span></h1>

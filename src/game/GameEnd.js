@@ -10,7 +10,7 @@ export default function GameEnd() {
     navigate("/", { replace: true });
   }, 12000);
   useEffect(() => {
-    document.title = "DevSoc | VCT"
+    document.title = "TAdS | VCT"
   }, [])
 
   const { width, height } = useWindowSize()
